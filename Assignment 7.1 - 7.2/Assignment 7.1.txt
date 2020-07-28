@@ -1,0 +1,13 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121-JAVA Programming 				Assignment #7.1
+
+Standardized Test Scores 
+
+	A local high school is giving a standardized test to all of its students.  There are 50 questions on the test and the school would like you to gather some statistics on how the students performed.  Scores can range anywhere from 0 to 50.  All the scores are stored in a file (scores.txt) that you will need to download.  
+
+	Input the data from the file and store the data into an array.  To do this, you will have to have your program open the data file, count the number of elements in the file, close the file, initialize your array, reopen the file and load the data into the array.
+
+	Next, display to the screen the number of students who got a perfect 50 score.
+
+	Your program should be written using methods and should be well documented internally and externally.  Your output should be displayed using Message boxes.
+

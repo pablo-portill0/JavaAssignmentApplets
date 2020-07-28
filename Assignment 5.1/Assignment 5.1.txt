@@ -1,0 +1,81 @@
+Harrisburg Area Community College			Fahringer
+CPS 121 – Com Sci I					Assignment #5.1
+
+NFL Quarterback Rating Formula 
+The NFL rates its passers for statistical purposes against a fixed performance standard based on statistical achievements of all qualified pro passers since 1960. The current system replaced one that rated passers in relation to their position in a total group based on various criteria. The current system, which was adopted in 1973, removes inequities that existed in the former method and, at the same time, provides a means of comparing passing performances from one season to the next.
+
+But I don’t like it.  It doesn’t include how many rushing yards the quarterback has and I think it should be a system that should be based on a scoring system from 0 to 100, where 100 is a perfect game.  So below is the system that I want you to use to evaluate a quarterback.
+
+	Input:
+		Name			String		Quarterbacks Name
+		Completed		Integer		The number of completed passes
+		Attempts		Integer		The number of pass attempts
+		Yards			Integer		The number of receiving yards
+		Touchdowns		Integer		The number of passing TD’s
+		Interceptions		Integer		The number of passing Interceptions
+		Rushing yards		Integer		The number of yards the quarterback rushes
+
+	Output:
+		All data the user inputs, and the Quarterbacks rating.  
+
+Input and output should be done with Dialog and Message boxes. Your program should be well documented internally and externally.
+
+In this program you are asked to compute the Fahringer quarterback rating for an NFL quarterback.   You will need to use methods for each of the Processing items and the output of your information.  You do not have to have a method for the inputting of your data.  Have your main call the methods and control the program. 
+
+	Processing is needed for the five categories below:
+
+   1. Percentage of completions per attempt 
+   2. Average yards gained per attempt 
+   3. Percentage of touchdown passes per attempt 
+   4. Percentage of interceptions per attempt 
+   5. Rushing yards
+
+The five calculations would be:                                                                                                 (below includes an example of 324 completions, 461 attempts, 3969 yards, 35 tds and 10 ints)
+
+
+Percentage of Completions — 324 of 461 is 70.28 percent. 
+Subtract 30 from the completion percentage (40.28) and multiply the result by 0.05. 
+The result is a point rating of 2.014.  
+Multiply it by 8 and return the int of the number.
+If the result is less than zero award zero points. If it is over 20, award 20 points.
+
+
+Average Yards Gained Per Attempt — 3,969 yards divided by 461 attempts is 8.61. 
+Subtract three yards from yards-per-attempt (5.61) and multiply the result by 0.25. 
+The result is 1.403.  
+Multiply it by 9 and return the int of the number.
+If the result is less than zero award zero points. If it is over 20, award 20 points.
+
+
+Percentage of Touchdown Passes — 35 touchdowns in 461 attempts is 7.59 percent. 
+Multiply the touchdown percentage by 0.2. 
+The result is 1.518.  
+Multiply it by 9 and return the int of the number.  
+If the result is less than zero award zero points.  If it is over 20, award 20 points.
+
+
+Percentage of Interceptions — 10 interceptions in 461 attempts is 2.17 percent. 
+Multiply the interception percentage by 0.25 (0.542) and subtract the number from 2.375. 
+The result is 1.833.  
+Multiply it by 10 and return the int of the number.
+If the result is less than zero award zero points.  If it is over 20, award 20 points.
+
+
+Rushing yards - rReturn a number based on taking the number of rushing yards and div it by 5.  
+The max number that can be returned is 20.  
+For example, if a quarterback rushed for 63 yards, you would return a score of 12.
+
+
+Each of the steps have a max of 20, so the sum could equal a max of 100.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Harrisburg Area Community College			Fahringer
+CPS 121 – Com Sci I					Assignment #2.1
+
+
+     	For this program, you will prompt the user to input his/her first name, last name, birth month, birth day and birth year.  Then you will display this information in two lines with the appropriate labels.
+
+
+Example Input:
+	Please enter your first name:			(this is the line of output from the program)
+	Joe						(this is what the user will enter)
+	Please enter your last name				…
+	Schmoe
+	Please enter your birth month:
+	12
+	Please enter your birth day:
+	1
+	Please enter your birth year:
+	90
+
+Example Output:
+	Name:  Schmoe, Joe
+	Birthday:  12 / 1 / 90
+
+
+Internal documentation includes:  
+a.	Name
+b.	Date
+c.	Class
+d.	Program Purpose – what does this program do
+e.	Single line documentation of any unique line(s) of programming

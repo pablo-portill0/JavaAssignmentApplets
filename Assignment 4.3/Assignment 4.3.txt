@@ -1,0 +1,16 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121 – Com Sci I					Assignment #4.3
+
+Test 1 Grades
+     	After the class complete the first exam, I saved all of the grades in a text file called test1.txt.  Your job is to do some analysis on the grades for me.
+
+Input:  There will not be any input for this program.  This is called a batch program because there is no user interaction.  The data that you will need is stored in the accompanying file call test1.txt
+
+Output:  The output should include the following:
+
+	o	The number of students who took the test.
+	o	The number of students who received each of the letter grades A, B, C, D, F.
+	o	The overall average for the class.
+
+Output should be displayed in a single Message box.
+

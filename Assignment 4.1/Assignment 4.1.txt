@@ -1,0 +1,32 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121 - JAVA Programming 				Assignment #4.1
+
+Pay Day (not the candy bar)
+     	
+	Write a program that calculates the amount a person would earn over a period of time.  The program will allow the user to enter the amount of money (cents) they will make on the first day.  Next, the user will enter the number of days they worked for the month.  Finally, the user will enter whether the multiplier for each day.  For example, if the user enters 1 for the cents on the first day and a 3 for the multiplier, then the second day 3 cents would be earned, third day 9 cents, etc.
+
+ 	The program should display a table (all in one Message Box) showing the salary for each day, and then show the total pay at the end of the period.  The output should be displayed in a dollar amount, not the number of pennies.
+
+Example Input:
+ 	Please enter the number of cents:
+	2
+
+	Please enter the number of days:
+	4
+
+	Please enter the multiplier:
+	3
+
+Example Output:
+	Day		Pay (in cents)
+	1		2
+	2		6
+	3		18
+	4		54
+
+	Total Pay:  $0.80
+
+	Input Validation:  Do not accept a number less than 1 for the number of days worked.  This needs to be done using a while loop.
+
+Input and output should be done with Dialog and Message boxes. Your program should be well documented internally and externally (make it user friendly).
+

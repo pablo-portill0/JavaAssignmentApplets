@@ -1,0 +1,15 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121 – Com Sci I					Assignment #4.2
+
+Random Number Guessing Game
+
+     	Time to play a game.  Your job is to write a program that will let the user guess a number between 1 and 1024 (inclusively).
+
+•	If the user’s guess is higher than the random number, the program should display “Your guess was too high, please try again.”  
+•	If the user’s guess is lower than the random number, the program should display “Your guess was too low, please try again.”  
+•	If the user guesses the number correctly, the program should display “Your guess was correct.  It too you xxx guesses to get it correct”.
+
+Your program will have to create a random number from 1 to 1024 (inclusively) at the start of the program.  You will have to keep track of the number of guesses and include it when the user guesses the number correctly.
+
+Input and output should be done with Dialog and Message boxes. 
+

@@ -1,0 +1,36 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121 – Com Sci I					Assignment #6.1
+
+Mulch
+
+
+As I was doing my Mulch this past summer, I realized I keep changing the size of my rectangular flower bed and need to recalculate how much mulch I will have to order.  Each year, I’m either changing the length or the width (larger or smaller).  So, what I need you to is create a class that I can use when next summer rolls around.
+
+Once I know the length and width, I want to use the program to calculate the following:
+
+	•	The perimeter of the flower bed, so I know how much wood to buy to put around it.
+	•	The volume of the flower bed (use a height of 3 inches)
+	•	How many bags of mulch I need to buy.  
+
+Length and width should be measured in inches.  The bags of mulch that I buy are two cubic feet each.  One cubic foot is equivalent to 12 x 12 x 12 cubic inches = 1728 cubic inches.
+
+Here’s what you will need for the Mulch class.
+
+	Fields:  
+	•	length
+	•	width
+	Methods: 
+	•	setLength(double)
+	•	getLength() double
+	•	setWidth(double)
+	•	getWidth() double
+	•	getPerim() double
+	•	getVol() double
+	•	getNumBags() double
+     
+
+Once you have completed writing your Mulch class, also write a program that will demo all of your methods to show that they work.  
+
+
+Input and output should be done with Dialog and Message boxes. Your program should be well documented internally and externally.
+

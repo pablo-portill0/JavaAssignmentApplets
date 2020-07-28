@@ -1,0 +1,18 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121-JAVA Programming 				Assignment #7.2
+
+Standardized Test Scores 
+
+     	Now that you have Assignment 7.1 working, it’s time to take it to the next level.  As you saw in the published student solution, all of the work is being done in methods and you will have to continue using them.
+
+      	Your data should have been read in from the data file and stored into an array.  Now, you can work with the data to calculate the following and display in a single Message box:
+
+	o	Average score
+	o	Highest score
+	o	Lowest score
+	o	Mode of the scores – the score(s) that occur(s) the most frequently
+
+Extra Credit:  Display a frequency table (the scores and the number of students that received each score.   (Hint:  you may need to use additional arrays to store information.)  
+
+Your program should be written using methods and should be well documented internally and externally.  Your output should be displayed using Message boxes.
+

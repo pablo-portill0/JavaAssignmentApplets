@@ -1,0 +1,35 @@
+HACC: Central Pennsylvania’s Community College		Fahringer
+CPS 121 – Com Sci I					Assignment #6.2
+
+Mulch – part duex
+
+Ok, so I decided we can make this program better and want to include more to the program.  There has been some discussion that the height should be a variable as well.  Also, I want you to include three constructors in your program.  One is the default constructor; one you will only pass in one value and all of the fields will get set to that value and the final one will have three arguments being passed in – one for each of the fields.  Finally, I want you to include a methods called toString().  The toString methods always a demo program to display an object.  It’s in the book.
+
+Here’s what you will need for the Mulch class.
+
+	Fields:  
+	•	length
+	•	width
+	•	height
+
+	Constructors:
+	•	Mulch()
+	•	Mulch(double)
+	•	Mulch(double, double, double)
+
+	Methods: 
+	•	setLength(double)
+	•	getLength() double
+	•	setWidth(double)
+	•	getWidth() double
+	•	setLength(double)
+	•	getLength() double
+	•	getPerim() double
+	•	getVol() double
+	•	getNumBags() double
+	•	toString() string
+
+     Once you have completed writing your Mulch class, also write a program that will demo all of your methods to show that they work.  
+
+Input and output should be done with Dialog and Message boxes. Your program should be well documented internally and externally.
+
